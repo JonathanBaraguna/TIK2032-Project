@@ -27,4 +27,5 @@ function zoomIn(element) {
     setTimeout(() => {
         element.style.transform = '';
         element.style.transition = '';
-    }, 3000); 
+    }, 3000);
+}
