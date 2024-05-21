@@ -8,5 +8,5 @@ document.addEventListener("DOMContentLoaded", function() {
         currentBgIndex = (currentBgIndex + 1) % backgrounds.length;
     }
 
-    setInterval(changeBackground, 3000); // Ganti gambar setiap 3 detik
+    setInterval(changeBackground, 2000); // Ganti gambar setiap 3 detik
 });

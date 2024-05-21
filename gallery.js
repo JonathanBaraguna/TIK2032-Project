@@ -1,7 +1,6 @@
-// Ambil semua elemen gambar di galeri
+
 const galleryItems = document.querySelectorAll('.gallery-item');
 
-// Tambahkan efek transisi ketika gambar dihover
 galleryItems.forEach(item => {
     item.addEventListener('mouseenter', () => {
         item.style.transform = 'scale(1.1)';
@@ -14,7 +13,6 @@ galleryItems.forEach(item => {
     });
 });
 
-// Tampilkan pesan ketika gambar diklik
 galleryItems.forEach(item => {
     item.addEventListener('click', () => {
         alert(`You clicked image ${item.dataset.imageId}`);
